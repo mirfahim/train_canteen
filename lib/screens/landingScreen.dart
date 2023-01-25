@@ -45,14 +45,14 @@ class LandingScreen extends StatelessWidget {
           Align(
             alignment: Alignment.center,
             child: Image.asset(
-              Helper.getAssetName("MealMonkeyLogo.png", "virtual"),
+              Helper.getAssetName("logo_bura.jpeg", "virtual"),
             ),
           ),
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
               width: double.infinity,
-              height: Helper.getScreenHeight(context) * 0.3,
+              height: Helper.getScreenHeight(context) * 0.28,
               padding: const EdgeInsets.symmetric(horizontal: 40),
               child: Column(
                 children: [
